@@ -1,0 +1,471 @@
+body {
+    background: linear-gradient(0deg, rgba(55, 55, 55, 0.5), rgba(55, 55, 55, 0.5)), linear-gradient(328.63deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 33.07%, rgba(0, 0, 0, 0.9) 64.32%, rgba(0, 0, 0, 0) 100%), linear-gradient(148.86deg, rgba(0, 26, 255, 0) 0%, rgba(0, 26, 255, 0.69) 26.88%, rgba(20, 0, 255, 0) 63.67%, rgba(5, 0, 255, 0.52) 99.63%, rgba(0, 26, 255, 0.4) 99.64%), linear-gradient(133.39deg, #BC00A9 9.59%, #FF00E5 89%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.mainCard {
+    filter: blur(0px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#loader {
+    position: absolute;
+    width: 20%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: 70vh;
+    overflow: hidden;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bar {
+    height: 1px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    animation: barAnimation 1.5s ease 500ms forwards;
+    margin-left: -100%;
+}
+
+@keyframes barAnimation {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+#helpBar {
+    height: 0px;
+    width: 0%;
+    background-color: rgba(0, 0, 0, 0);
+    animation: helpBarAnimation 1.5s ease 500ms forwards;
+}
+
+@keyframes helpBarAnimation {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#barValue {
+    color: grey;
+    width: 100%;
+    font-size: 0px;
+    line-height: 2;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ ::-webkit-scrollbar {
+    width: 0px;
+}
+
+#card {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+}
+
+#main {
+    display: none;
+}
+
+.homeMid {
+    height: 70%;
+    width: 100%;
+}
+
+.homeFooter {
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.logoHead {
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 0px 5px grey;
+}
+
+.tagline {
+    color: grey;
+    font-size: 15px;
+}
+
+.logoDescription {
+    font-size: 12px;
+    color: grey;
+}
+
+.startInvesting {
+    padding: 5px 10% 5px 10%;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+.homeFooterHead {
+    font-size: 15px;
+    color: white;
+    line-height: 2;
+}
+
+.homeFooterContent {
+    font-size: 12px;
+    color: grey;
+    line-height: 1.5;
+}
+
+.ruler {
+    width: 100%;
+}
+
+td {
+    padding: 3%;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+tr {
+    background-color: rgb(55, 55, 55);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+#secondPageHead {
+    font-size: 30px;
+}
+
+#dataTable {
+    width: 90%;
+}
+
+#c1 {
+    stroke-dashoffset: 157.08;
+    -webkit-transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+    transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+}
+
+#c2 {
+    stroke-dashoffset: 157.08;
+    -webkit-transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+    transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+}
+
+#c3 {
+    stroke-dashoffset: 157.08;
+    -webkit-transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+    transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+}
+
+#c4 {
+    stroke-dashoffset: 157.08;
+    -webkit-transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+    transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+}
+
+#c5 {
+    stroke-dashoffset: 157.08;
+    -webkit-transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+    transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+}
+
+#c6 {
+    stroke-dashoffset: 157.08;
+    -webkit-transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+    transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+}
+
+#c7 {
+    stroke-dashoffset: 157.08;
+    -webkit-transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+    transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+}
+
+#c8 {
+    stroke-dashoffset: 157.08;
+    -webkit-transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+    transition: stroke-dashoffset 1s ease-out, stroke-width 0.2s ease-in-out;
+}
+
+circle {
+    fill: none;
+    transition: all 0.2s;
+}
+
+
+/* .fpie {
+    transition: stroke-width 0.2s !important;
+} */
+
+.pieIndicator {
+    width: 40px;
+    height: 20px;
+    border: 2px solid black;
+}
+
+.pieIndicator:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 990.1px) {
+    .pieParent {
+        height: 100%;
+    }
+}
+
+@media (max-width: 990px) {
+    .pieParent {
+        height: 70%;
+    }
+}
+
+.bpie {
+    z-index: 2;
+}
+
+.fpie {
+    z-index: 3;
+}
+
+.graphBar {
+    transition: height 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+#upBar>div>div {
+    border-radius: 10px 10px 0px 0px;
+}
+
+#downBar>div>div {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.keyFeatures {
+    transition: all 0.2s;
+    padding: 0 !important;
+    width: 100%;
+    z-index: 1;
+    height: 200px;
+}
+
+.keyFeatures:hover {
+    box-shadow: 0x 0px 8px grey;
+    z-index: 100;
+    transform: scale(1.2);
+}
+
+.projectLink {
+    height: 100%;
+    transition: all 0.2s;
+}
+
+.projectLink:hover {
+    text-decoration: none;
+}
+
+#link {
+    background-color: rgb(37, 37, 37);
+    padding: 5%;
+    height: 100%;
+    color: rgb(185, 185, 185);
+    font-size: 12px;
+    transition: all 0.2s;
+}
+
+#link:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 0px 0px 8px black;
+}
+
+@media (min-width: 750.1px) {
+    #link {
+        border-right: 2px solid rgb(22, 0, 44) !important;
+    }
+}
+
+@media (max-width: 750px) {
+    #link {
+        border-bottom: 2px solid rgb(22, 0, 44);
+    }
+}
+
+.featureHead {
+    padding-top: 5%;
+    font-size: 15px;
+    color: white;
+}
+
+.featureContent {
+    overflow: scroll;
+    padding-top: 5%;
+    font-size: 12px;
+}
+
+.keyFeatureBelow {
+    min-height: 200px;
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 100px;
+}
+
+.joinUsButton {
+    padding: 5px 10% 5px 10%;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
+.input {
+    background: rgba(100, 100, 100, 0.2);
+    border: none;
+    color: white;
+    width: 100%;
+    height: 30px;
+}
+
+.yourMessage {
+    background: rgba(100, 100, 100, 0.2);
+    color: white;
+    border: none;
+    height: 200px;
+    width: 100%;
+}
+
+.sendButton {
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.userData {
+    background-color: none;
+    max-width: 130px;
+    margin-top: 2%;
+}
+
+.memberSection {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    max-width: 130px;
+}
+
+.userIcon {
+    width: 100%;
+    height: 100%;
+    max-width: 130px;
+    z-index: 1;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 130px;
+    opacity: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.2s;
+    color: white;
+    font-size: 18px;
+}
+
+#overlay:hover {
+    opacity: 1;
+}
+
+.member {
+    margin: 10px
+}
+
+#logo {
+    width: 250px;
+    height: 250px;
+    margin-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    filter: blur(5px);
+    animation: logoBlur 2000ms ease forwards;
+}
+
+@keyframes logoBlur {
+    from {
+        filter: blur(5px);
+    }
+    to {
+        filter: blur(0px);
+    }
+}
+
+#start {
+    width: 100%;
+    height: 100%;
+}
+
+.dates {
+    width: 10%;
+    height: 100%;
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.mailUs {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(197, 197, 197);
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+    transition: all 0.2s
+}
+
+.mailUs:hover {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+
+.tableData {
+    background-image: linear-gradient(to right, rgba(36, 0, 77, 0.979), rgba(73, 0, 73, 0.863));
+}
+
+.tableIcon {
+    background-image: linear-gradient(to right, rgba(73, 0, 73, 0.863), rgba(36, 0, 77, 0.979));
+}
