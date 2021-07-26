@@ -50,43 +50,43 @@ $(document).ready(function() {
             "color": "rgb(105, 30, 70)",
             "id": "c2",
             "rad": 90,
-            "angle": 65
+            "angle": 80
         },
         {
             "color": "rgb(208, 96, 247)",
             "id": "c3",
             "rad": 80,
-            "angle": 45
-        },
-        {
-            "color": "rgb(10, 68, 187)",
-            "id": "c4",
-            "rad": 70,
-            "angle": 55
+            "angle": 85
         },
         {
             "color": "rgb(21, 70, 125)",
-            "id": "c5",
-            "rad": 60,
+            "id": "c4",
+            "rad": 70,
             "angle": 80
         },
         {
             "color": "rgb(34, 167, 190)",
-            "id": "c6",
-            "rad": 50,
-            "angle": 60
+            "id": "c5",
+            "rad": 60,
+            "angle": 70
         },
         {
-            "color": "rgb(135, 79, 42)",
+            "color": "rgb(193, 144, 55)",
+            "id": "c6",
+            "rad": 50,
+            "angle": 75
+        },
+        {
+            "color": "rgb(10, 68, 187)",
             "id": "c7",
             "rad": 40,
             "angle": 75
         },
         {
-            "color": "rgb(193, 144, 55)",
+            "color": "rgb(135, 79, 42)",
             "id": "c8",
             "rad": 30,
-            "angle": 75
+            "angle": 65
         },
     ];
 
